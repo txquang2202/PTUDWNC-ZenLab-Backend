@@ -12,7 +12,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: "https://ptudwnc-zen-class-front-end.vercel.app",
     credentials: true,
   })
 );
